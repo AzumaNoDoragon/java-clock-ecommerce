@@ -15,11 +15,11 @@ public class ProductServices {
     private ClockData data;
 
     public List<Clock> getAllProducts() {
-        return ClockData.getProducts();
+        return ClockData.getClocksDatabase();
     }
 
     public Optional<Clock> getProductById(Long id) {
-        return ClockData.getProducts().stream()
+        return ClockData.getClocksDatabase().stream()
                 .filter(p -> p.getId().equals(id))
                 .findFirst();
     }
