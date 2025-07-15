@@ -2,6 +2,7 @@
 # ⌚ Clock API - Spring Boot
 
 Esta é uma API RESTful desenvolvida com **Spring Boot** que fornece um catálogo de relógios.
+Você deve utilizar este backend junto com o [frontend disponível aqui](https://github.com/AzumaNoDoragon/clock-frontend-class).
 
 ---
 
