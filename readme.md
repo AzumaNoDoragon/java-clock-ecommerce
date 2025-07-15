@@ -72,7 +72,7 @@ Exemplo:
 1. **Clone o repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/clock-api.git
+git clone https://github.com/felipeAguiarCode/clock-api.git
 cd clock-api
 ```
 
@@ -98,6 +98,7 @@ A aplicação ficará disponível em:
 ```
 com.dio.dio.clocks
 ├── controllers     → Endpoints REST
+├── config          → Configurações
 ├── services        → Regras de negócio
 ├── data            → Dados simulados (mock)
 └── domain          → Entidades de domínio (Clock)
